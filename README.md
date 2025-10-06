@@ -5,7 +5,7 @@ A light-weight/minimalist CLI chat client for connecting to local and remote Age
 ## Installation
 
 ```bash
-npm install -g @artinet/chat
+npm install -g @artinet/lchat
 ```
 
 ## Usage
