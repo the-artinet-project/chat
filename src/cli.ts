@@ -13,20 +13,20 @@ import chalk from "chalk";
 const program = new Command();
 
 program
-  .name("chat")
-  .description("a simple chat client for connecting to A2A Servers")
+  .name("lchat")
+  .description("a lightweight chat client for connecting to A2A Servers")
   .version("0.0.1")
   .option("-v, --verbose", "Enable verbose output")
   .option("-t, --task <taskId>", "Set the task ID")
   .option(
     "-e, --endpoint <endpoint>",
-    "Set the A2A endpoint (default: http://localhost:3000/api)"
+    "Set the A2A endpoint (default: http://localhost:3000/a2a)"
   )
   .option("-c, --card", "Show the agent card")
   .action(async (options) => {
     let client: A2AClient | undefined;
     try {
-      client = new A2AClient(options?.endpoint ?? "http://localhost:3000/api");
+      client = new A2AClient(options?.endpoint ?? "http://localhost:3000/a2a");
     } catch (error) {
       console.error(chalk.red("Error creating client:"));
       console.error(error instanceof Error ? error.message : String(error));

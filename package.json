@@ -1,7 +1,7 @@
 {
-  "name": "@artinet/chat",
+  "name": "@artinet/lchat",
   "version": "0.0.1",
-  "description": "A simple chat client for connecting to A2A Servers.",
+  "description": "A lightweight chat client for connecting to A2A Servers.",
   "author": "artinet",
   "license": "Apache-2.0",
   "repository": {
@@ -18,9 +18,10 @@
     "LICENSE"
   ],
   "bin": {
-    "chat": "./dist/src/cli.js"
+    "lchat": "./dist/src/cli.js"
   },
   "keywords": [
+    "lchat",
     "artinet",
     "chat",
     "a2a",
@@ -28,7 +29,8 @@
     "agent",
     "ai",
     "artificial intelligence",
-    "agentic ai"
+    "agentic ai",
+    "orchestration"
   ],
   "engines": {
     "node": ">=22.0.0"

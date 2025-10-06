@@ -12,19 +12,19 @@ npm install -g @artinet/chat
 
 ```bash
 # Connect to default endpoint (http://localhost:3000/api)
-chat
+lchat
 
 # Connect to custom endpoint
-chat -e https://your-agent.com/api
+lchat -e https://your-agent.com/api
 
 # View agent card
-chat -c
+lchat -c
 
 # Enable verbose output
-chat -v
+lchat -v
 
 # Continue existing task
-chat -t <taskId>
+lchat -t <taskId>
 ```
 
 ## Options
