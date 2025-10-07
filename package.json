@@ -1,6 +1,6 @@
 {
   "name": "@artinet/lchat",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A lightweight chat client for connecting to A2A Servers.",
   "author": "artinet",
   "license": "Apache-2.0",
@@ -50,7 +50,7 @@
   "dependencies": {
     "chalk": "^5.6.2",
     "commander": "^14.0.1",
-    "@artinet/sdk": "0.5.7",
+    "@artinet/sdk": "0.5.9",
     "prompts": "^2.4.2",
     "uuid": "^13.0.0"
   },

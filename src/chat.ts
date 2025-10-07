@@ -129,6 +129,8 @@ export async function chat(
 
         if (response) {
           console.log(updateKind + chalk.gray("Agent: ") + response);
+        }else if(verbose && updateKind.length > 0){
+          console.log(updateKind + chalk.gray("Status Update: ☑️"));
         }
       }
     } catch (error) {
